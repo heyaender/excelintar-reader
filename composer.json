@@ -1,0 +1,23 @@
+{
+    "name": "heyaender/excelintar-reader",
+    "description": "Reader for Excelintar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "heyaender\\ExcelintarReader\\": "./src/ExcelintarReader"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-zip": "*",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "ext-xmlreader": "*",
+        "ext-intl": "*",
+        "heyaender/excelintar-helper": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
