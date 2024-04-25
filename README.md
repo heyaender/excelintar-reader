@@ -26,4 +26,5 @@ foreach ($sheet->nextRow() as $rowNum => $rowData) {
 ```
 
 ###### Example Excel to Import
-![](media/17140185527898/17140186877779.jpg)
+<img width="431" alt="image" src="https://github.com/heyaender/excelintar-reader/assets/59676479/7303d5f2-5dc0-4c79-99cd-45b1f160faae">
+
